@@ -1,0 +1,7 @@
+<p>Enter the text that you want to send to the parent</p>
+
+<input type="text" #myinput>
+
+<button (click)="fireEvent(myinput.value)"> SEND</button>
+
+<h2>message received from parent is= {{namej}}</h2>>

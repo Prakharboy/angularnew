@@ -1,0 +1,10 @@
+
+<input type="text" [(ngModel)]="name"  #inputvalues> 
+
+<h2>displaying user input</h2>
+
+<br>
+
+{{name}}
+
+<button (click)="wtc(inputvalues.value)">presstowritetoconsole</button>

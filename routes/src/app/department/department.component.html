@@ -1,0 +1,13 @@
+<p>list of departments</p>
+<ul class="items">
+
+    <li (click)="onselect(dd)" [class.selected]="selectedh(dd)" *ngFor="let dd of departments">  
+       {{dd.id}}{{dd.name}}
+    </li>
+
+    
+
+
+
+
+</ul>
